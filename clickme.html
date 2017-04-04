@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title> ClickMe - Button </title>
+  
+  <meta author="Shidigital">
+  <meta content="Click a button, fun, game">
+  
+
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+
+<body>
+ <header>
+
+ <h1> ClickMe - Button Game </h1>
+ 
+ </header>
+ 
+ <section>
+ 
+ <p> This is the <span>ClickMe - Button</span>. <br> 
+ How often can you click it? </p>
+ 
+ <div id="btndiv">
+   <img src="arrow.png" alt="arrow" id="arrow">
+   <button id="clickme" name="click" onclick="myfunction()" > Click Me ! </button> <br>
+   You have clicked on the button
+   <input type="text" name="result" id="result" value="0" disabled> time(s). <br> <br>
+   <button id="savebtn" class="btn" onclick="save()"> Save to Highscore </button>
+   <button id="resetbtn" class="btn" onclick="reset()">Reset</button>
+   
+ </div> <!-- end btndiv -->
+ 
+ </section>
+ <hr>
+ <section>
+   <h2> Highscore </h2>
+   <p class="scoreboard"> Name | Score </p>
+   <h3> First place </h3>
+   <div class="scoreboard" id="highscore1">
+   </div>
+   <h3> Second place </h3>
+   <div class="scoreboard" id="highscore2">
+   </div>
+   <h3> Third place </h3>
+   <div class="scoreboard" id="highscore3">
+   </div>
+ </section>
+ 
+ <footer>
+   <a href="www.shidigital.com"> Made by Shidigital | Impressum </a>
+ </footer>
+ 
+ <script src="script.js">
+ </script>
+
+</body>
+</html>
