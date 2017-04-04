@@ -1,8 +1,7 @@
-# webdev
-Front-End dev
+# ClickMe-Button Game
 
-Here come some of my training websites.
-You can use these, too.
+Here is an easy ClickMe-button website made with HTML, CSS and Javascript.
+Counts clicks on a button and saves the score in a highscore list.
+Highscore list works only for this session.
 
-Here is an easy button website made with HTML, CSS and Javascript.
-Still needs something to save the highscore to a database.
+Still needs something to save the highscore to a database. 
